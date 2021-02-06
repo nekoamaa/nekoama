@@ -1,3 +1,5 @@
+/* Global */
+
 html,
 body {
     height: 100%;
@@ -8,82 +10,36 @@ body {
 .open-sans {
     font-family: 'Open Sans', sans-serif;
 }
+
+.lead {
+    font-size: 18px !important;
+}
+
+
+/* Navbar */
+
 .navbar {
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    top: 0; 
+    top: 0;
     width: 100%;
     z-index: 1;
     overflow: auto;
 }
 
 .navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-.unchecked {
-    color: gray;
-}
-
-.checked {
-    color: #feb038;
-}
-
-.raiting-number {
-    font-size: 25px;
-    font-weight: 400;
-    color: white;
-    line-height: 1.3;
-    margin-left: .5rem;
-    margin-right: 1.5rem;
-    display:inline-block;
-}
-
-.raiting-number span {
-    color: #9f9f9f;
-    display:inline-block;
-}
-
-.lead {
-    font-size: 18px !important; 
-}
-
-.home-content {
-    margin-top: 75px;
-    width: 95%;
-    margin: auto;
-    font-size: 2.5rem;
-    color: #fff;
-    position: relative;
-}
-
-.anime-content {
-    margin-top: 75px;
-    width: 95%;
-    margin: auto;
-    font-size: 2.5rem;
-    color: #fff;
-    position: relative;
-}
-
-.manga-content {
-    margin-top: 75px;
-    width: 95%;
-    margin: auto;
-    font-size: 2.5rem;
-    color: #fff;
-    position: relative;
+    background: #ddd;
+    color: black;
 }
 
 .poster {
@@ -97,74 +53,71 @@ body {
     border: 0.5px solid black;
 }
 
-.poster:before{
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
+.poster:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
 }
 
-.fa-instagram:hover {
-    color: transparent; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); background-clip: text; -webkit-background-clip: text;
-}
 
-.fa-twitter:hover {
-    color: #1DA1F2;
-}
-
-.fa-facebook:hover {
-    color: #4267B2;
-}
-
-.fa-github:hover {
-    color: white;
-    background-color: #111111;
-}
-
-.home-button:hover {
-    color: white;
-}
 /* Home Content */
 
-.home-hero {
-  background-image: url("images/home-banner.png");
-}
-
-.home-anime {
-  background-image: url("images/home-anime.jpg");
-}
-
-.home-manga {
-  background-image: url("images/home-manga.png");
-}
-
-.home-meetus {
-  background-image: url("images/home-meetme.jpg");
-}
-
 .home-content {
+    margin-top: 75px;
+    width: 95%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    position: relative;
     text-align: center;
 }
 
+.home-hero {
+    background-image: url("images/home-banner.png");
+}
+
+.home-anime {
+    background-image: url("images/home-anime.jpg");
+}
+
+.home-manga {
+    background-image: url("images/home-manga.png");
+}
+
+.home-meetus {
+    background-image: url("images/home-meetme.jpg");
+}
+
+
 /* Anime Content */
 
+.anime-content {
+    margin-top: 75px;
+    width: 95%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    position: relative;
+}
+
 .anime-original {
-  background-image: url("images/home-banner.png");
+    background-image: url("images/home-banner.png");
 }
 
 .anime-1 {
-  background-image: url("images/your-name.jpg");
+    background-image: url("images/your-name.jpg");
 }
 
 .anime-2 {
-  background-image: url("images/silent-voice.png");
+    background-image: url("images/silent-voice.png");
 }
 
 .anime-3 {
-  background-image: url("images/steins;gate.jpg");
+    background-image: url("images/steins;gate.jpg");
 }
 
 .anime-4 {
@@ -195,46 +148,82 @@ body {
     background-image: url("images/classroom.png");
 }
 
-/* Manga Content */
+.unchecked {
+    color: gray;
+}
 
-.manga-original {
-  background-image: url("images/home-banner.png");
+.checked {
+    color: #feb038;
+}
+
+.raiting-number {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.3;
+    margin-left: .5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+.raiting-number span {
+    color: #9f9f9f;
+    display: inline-block;
 }
 
 
+/* Manga Content */
+
+.manga-content {
+    margin-top: 75px;
+    width: 95%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    position: relative;
+}
+
+.manga-original {
+    background-image: url("images/home-banner.png");
+}
+
 .manga-1 {
-  background-image: url("images/demon-slayer.jpg");
+    background-image: url("images/demon-slayer.jpg");
 }
 
 .manga-2 {
-  background-image: url("images/three-days-of-happiness.jpg");
+    background-image: url("images/three-days-of-happiness.jpg");
 }
 
 .manga-3 {
-  background-image: url("images/promised-neverland.jpg");
+    background-image: url("images/promised-neverland.jpg");
 }
 
 .manga-4 {
-  background-image: url("images/chainsaw-man.jpg");
+    background-image: url("images/chainsaw-man.jpg");
 }
 
 .manga-5 {
-  background-image: url("images/jujutsu-kaisen.jpg");
+    background-image: url("images/jujutsu-kaisen.jpg");
 }
 
 .manga-6 {
-  background-image: url("images/classroom-manga.jpg");
+    background-image: url("images/classroom-manga.jpg");
 }
 
+
 /* Footer */
+
 footer {
     background-color: #212529;
 }
+
 p {
     line-height: 25px;
 }
 
-h2, h3 {
+h2,
+h3 {
     color: #fff;
 }
 
@@ -245,7 +234,6 @@ h2 {
 .footer-top {
     background: #111;
     padding: 80px 0;
-    
 }
 
 .segment-one h3 {
@@ -256,7 +244,7 @@ h2 {
 .segment-two h2 {
     color: #fff;
 }
- 
+
 .segment-two h2:before {
     content: '|';
     color: #c60539;
@@ -278,6 +266,7 @@ h2 {
     color: #999;
     text-decoration: none;
 }
+
 .segment-two ul li a:hover {
     color: white;
 }
@@ -292,21 +281,21 @@ h2 {
     padding-right: 10px;
 }
 
-.segment-three a{
+.segment-three a {
     background: #494848;
     width: 40px;
     height: 40px;
     display: inline-block;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
-.segment-three a i{
+.segment-three a i {
     font-size: 20px;
     color: #fff;
     padding: 10px 12px;
 }
 
-.segment-four h2{
+.segment-four h2 {
     color: #fff;
 }
 
@@ -335,7 +324,34 @@ h2 {
     color: white;
 }
 
+.fa-instagram:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+}
+
+.fa-github:hover {
+    color: white;
+    background-color: #111111;
+}
+
+.home-button:hover {
+    color: white;
+}
+
+
 /* responsive */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .md-mb-30 {
         margin-bottom: 30px;
@@ -346,7 +362,6 @@ h2 {
     .sm-mb-30 {
         margin-bottom: 30px;
     }
-    
     .footer-top {
         padding: 50px 0;
     }
