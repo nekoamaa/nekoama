@@ -85,19 +85,19 @@ body {
     text-align: center;
 }
 
-.home-hero {
+.home-hero-bg {
     background-image: url("images/home-banner.png");
 }
 
-.home-anime {
+.home-anime-bg {
     background-image: url("images/home-anime.jpg");
 }
 
-.home-manga {
+.home-manga-bg {
     background-image: url("images/home-manga.png");
 }
 
-.home-meetus {
+.home-meetus-bg {
     background-image: url("images/home-meetme.jpg");
 }
 
