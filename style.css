@@ -6,7 +6,6 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    padding-top: 29px;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -23,11 +22,12 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #333 !important;
+    background-color: #ffffff00 !important;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9999;
+    transition: all 0.4s;
 }
 
 .navbar a {
@@ -42,6 +42,11 @@ body {
 .navbar a:hover {
     background: #ddd;
     color: #333 !important;
+}
+
+.navbar.active {
+    background: #333333 !important;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #navbar-icon {
@@ -70,6 +75,16 @@ body {
     left: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #fff;
+    }
 }
 
 
