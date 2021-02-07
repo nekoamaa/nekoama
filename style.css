@@ -6,6 +6,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
+    padding-top: 21x;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -26,7 +27,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 9999;
 }
 
 .navbar a {
@@ -34,7 +35,7 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 7px 10px 7px 15px;
     text-decoration: none;
 }
 
@@ -50,7 +51,7 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 90vh;
+    height: 100vh;
     border: 0.5px solid black;
 }
 
