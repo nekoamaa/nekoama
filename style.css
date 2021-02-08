@@ -63,7 +63,6 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 100vh;
     border: 0.5px solid black;
 }
 
@@ -98,6 +97,11 @@ body {
     color: #fff;
     position: relative;
     text-align: center;
+    padding: 0px 13px 0px 13px;
+}
+
+.home-hero-bg {
+    height: 100vh;
 }
 
 .home-hero-bg {
@@ -130,10 +134,12 @@ body {
     font-size: 2.5rem;
     color: #fff;
     position: relative;
+    padding: 0px 13px 0px 13px;
 }
 
 .anime-original {
     background-image: url("images/home-banner.png");
+    height: 100vh;
 }
 
 .anime-1 {
@@ -203,16 +209,18 @@ body {
 /* Manga Content */
 
 .manga-content {
-    margin-top: 75px;
     width: 95%;
+    margin-top: 75px;
     margin: auto;
     font-size: 2.5rem;
     color: #fff;
     position: relative;
+    padding: 0px 13px 0px 13px;
 }
 
 .manga-original {
     background-image: url("images/home-banner.png");
+    height: 100vh;
 }
 
 .manga-1 {
@@ -237,6 +245,14 @@ body {
 
 .manga-6 {
     background-image: url("images/classroom-manga.jpg");
+}
+
+
+/* About Me*/
+
+.aboutme-original {
+    background-image: url("images/home-banner.png");
+    height: 100vh;
 }
 
 
