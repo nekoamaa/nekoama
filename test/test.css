@@ -44,14 +44,6 @@ body {
     color: #333 !important;
 }
 
-.navbar-brand {
-    position: relative;
-    left: 0;
-    top: 0;
-    text-align: left !important;
-    margin: auto;
-}
-
 .navbar.active {
     background: #333333 !important;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
@@ -84,9 +76,13 @@ body {
     background: rgba(0, 0, 0, 0.7);
 }
 
-@media only screen and (max-width: 991px) {
+@media (max-width: 991.98px) {
     .navbar {
-        background-color: #333333!important;
+        background: #fff;
+    }
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #fff;
     }
 }
 
@@ -107,23 +103,23 @@ body {
 .home-hero-bg {
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("images/home-banner.png");
+    background-image: url("../images/home-banner.png");
 }
 
 .home-projects-bg {
-    background-image: url("images/home-projects.jpg");
+    background-image: url("../images/home-projects.jpg");
 }
 
 .home-anime-bg {
-    background-image: url("images/home-anime.jpg");
+    background-image: url("../images/home-anime.jpg");
 }
 
 .home-manga-bg {
-    background-image: url("images/home-manga.png");
+    background-image: url("../images/home-manga.png");
 }
 
 .home-meetus-bg {
-    background-image: url("images/home-meetme.jpg");
+    background-image: url("../images/home-meetme.jpg");
 }
 
 .home-button {
@@ -151,47 +147,47 @@ body {
 .anime-original {
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("images/home-banner.png");
+    background-image: url("../images/home-banner.png");
 }
 
 .anime-1 {
-    background-image: url("images/your-name.jpg");
+    background-image: url("../images/your-name.jpg");
 }
 
 .anime-2 {
-    background-image: url("images/silent-voice.png");
+    background-image: url("../images/silent-voice.png");
 }
 
 .anime-3 {
-    background-image: url("images/steins;gate.jpg");
+    background-image: url("../images/steins;gate.jpg");
 }
 
 .anime-4 {
-    background-image: url("images/oregairu.jpg");
+    background-image: url("../images/oregairu.jpg");
 }
 
 .anime-5 {
-    background-image: url("images/hyouka.png");
+    background-image: url("../images/hyouka.png");
 }
 
 .anime-6 {
-    background-image: url("images/relife.jpg");
+    background-image: url("../images/relife.jpg");
 }
 
 .anime-7 {
-    background-image: url("images/toradora.jpg");
+    background-image: url("../images/toradora.jpg");
 }
 
 .anime-8 {
-    background-image: url("images/bunny-girl.jpg");
+    background-image: url("../images/bunny-girl.jpg");
 }
 
 .anime-9 {
-    background-image: url("images/angel-beats.png");
+    background-image: url("../images/angel-beats.png");
 }
 
 .anime-10 {
-    background-image: url("images/classroom.png");
+    background-image: url("../images/classroom.png");
 }
 
 .unchecked {
@@ -233,31 +229,31 @@ body {
 .manga-original {
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("images/home-banner.png");
+    background-image: url("../images/home-banner.png");
 }
 
 .manga-1 {
-    background-image: url("images/demon-slayer.jpg");
+    background-image: url("../images/demon-slayer.jpg");
 }
 
 .manga-2 {
-    background-image: url("images/three-days-of-happiness.jpg");
+    background-image: url("../images/three-days-of-happiness.jpg");
 }
 
 .manga-3 {
-    background-image: url("images/promised-neverland.jpg");
+    background-image: url("../images/promised-neverland.jpg");
 }
 
 .manga-4 {
-    background-image: url("images/chainsaw-man.jpg");
+    background-image: url("../images/chainsaw-man.jpg");
 }
 
 .manga-5 {
-    background-image: url("images/jujutsu-kaisen.jpg");
+    background-image: url("../images/jujutsu-kaisen.jpg");
 }
 
 .manga-6 {
-    background-image: url("images/classroom-manga.jpg");
+    background-image: url("../images/classroom-manga.jpg");
 }
 
 
@@ -266,7 +262,7 @@ body {
 .aboutme-original {
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("images/home-banner.png");
+    background-image: url("../images/home-banner.png");
 }
 
 
