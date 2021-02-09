@@ -30,11 +30,19 @@ body {
     transition: all 0.4s;
 }
 
+.navbar-nav .nav-link {
+    padding-right: 17px;
+    padding-left: 0px;
+}
+
+.navbar:hover {
+    background-color: #333333 !important;
+}
+
 .navbar a {
-    float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     padding: 10px 6px 10px 6px;
     text-decoration: none;
 }
@@ -45,11 +53,8 @@ body {
 }
 
 .navbar-brand {
-    position: relative;
-    left: 0;
-    top: 0;
+    margin: 0px 0px 0px 0px !important;
     text-align: left !important;
-    margin: auto;
 }
 
 .navbar.active {
@@ -81,12 +86,15 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 @media only screen and (max-width: 991px) {
     .navbar {
         background-color: #333333!important;
+    }
+    .navbar-brand {
+        text-align: center !important;
     }
 }
 
@@ -110,20 +118,20 @@ body {
     background-image: url("images/home-banner.png");
 }
 
+.home-aboutme-bg {
+    background-image: url("images/home-aboutme.jpg");
+}
+
 .home-projects-bg {
-    background-image: url("images/home-projects.jpg");
+    background-image: url("images/hyouka.png");
 }
 
 .home-anime-bg {
-    background-image: url("images/home-anime.jpg");
+    background-image: url("images/shinobu-bg.png");
 }
 
 .home-manga-bg {
-    background-image: url("images/home-manga.png");
-}
-
-.home-meetus-bg {
-    background-image: url("images/home-meetme.jpg");
+    background-image: url("images/kocho-sisters.jpg");
 }
 
 .home-button {
@@ -133,6 +141,43 @@ body {
 
 .home-button:hover {
     color: #4ec2fc;
+}
+
+
+/* About Me*/
+
+.aboutme-original {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("images/home-aboutme.jpg");
+}
+
+.aboutme-bg {
+    background-image: url("images/yui.jpg");
+}
+
+
+/* Projects Content */
+
+.projects-content {
+    margin-top: 75px;
+    width: 95%;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    position: relative;
+    padding: 0px 13px 0px 13px;
+    text-align: center;
+}
+
+.projects-original {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("images/hyouka.png");
+}
+
+.projects-portfolio {
+    background-image: url("images/chitanda.png");
 }
 
 
@@ -151,7 +196,7 @@ body {
 .anime-original {
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("images/home-banner.png");
+    background-image: url("images/shinobu-bg.png");
 }
 
 .anime-1 {
@@ -233,7 +278,7 @@ body {
 .manga-original {
     height: 100vh;
     background-attachment: fixed;
-    background-image: url("images/home-banner.png");
+    background-image: url("images/kocho-sisters.jpg");
 }
 
 .manga-1 {
@@ -258,15 +303,6 @@ body {
 
 .manga-6 {
     background-image: url("images/classroom-manga.jpg");
-}
-
-
-/* About Me*/
-
-.aboutme-original {
-    height: 100vh;
-    background-attachment: fixed;
-    background-image: url("images/home-banner.png");
 }
 
 
@@ -326,7 +362,7 @@ h2 {
 }
 
 .segment-two ul li a:hover {
-    color: white;
+    color: #fff;
 }
 
 .segment-three h2 {

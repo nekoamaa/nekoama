@@ -30,11 +30,19 @@ body {
     transition: all 0.4s;
 }
 
+.navbar-nav .nav-link {
+    padding-right: 17px;
+    padding-left: 0px;
+}
+
+.navbar:hover {
+    background-color: #333333 !important;
+}
+
 .navbar a {
-    float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     padding: 10px 6px 10px 6px;
     text-decoration: none;
 }
@@ -42,6 +50,11 @@ body {
 .navbar a:hover {
     background: #ddd;
     color: #333 !important;
+}
+
+.navbar-brand {
+    margin: 0px 0px 0px 0px !important;
+    text-align: left !important;
 }
 
 .navbar.active {
@@ -76,13 +89,12 @@ body {
     background: rgba(0, 0, 0, 0.7);
 }
 
-@media (max-width: 991.98px) {
+@media only screen and (max-width: 991px) {
     .navbar {
-        background: #fff;
+        background-color: #333333!important;
     }
-    .navbar .navbar-brand,
-    .navbar .nav-link {
-        color: #fff;
+    .navbar-brand {
+        text-align: center !important;
     }
 }
 
@@ -288,6 +300,7 @@ h2 {
 .footer-top {
     background: #111;
     padding: 80px 0;
+    height: 325px;
 }
 
 .segment-one h3 {
