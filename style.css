@@ -89,15 +89,6 @@ body {
     background: rgba(0, 0, 0, 0.6);
 }
 
-@media only screen and (max-width: 991px) {
-    .navbar {
-        background-color: #333333!important;
-    }
-    .navbar-brand {
-        text-align: center !important;
-    }
-}
-
 
 /* Home Content */
 
@@ -136,7 +127,8 @@ body {
 
 .home-button {
     color: #03a9fc;
-    background-color: transparent
+    font-size: 20px;
+    background-color: transparent;
 }
 
 .home-button:hover {
@@ -306,6 +298,25 @@ body {
 }
 
 
+/* Characters Content */
+
+.characters-content {
+    width: 95%;
+    margin-top: 75px;
+    margin: auto;
+    font-size: 2.5rem;
+    color: #fff;
+    position: relative;
+    padding: 0px 13px 0px 13px;
+}
+
+.characters-original {
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url("images/kocho-sisters.jpg");
+}
+
+
 /* Footer */
 
 footer {
@@ -454,5 +465,61 @@ h2 {
     }
     .footer-top {
         padding: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* Navbar */
+    .navbar {
+        background-color: #333333!important;
+    }
+    .navbar-brand {
+        text-align: center !important;
+    }
+    /* Home */
+    .home-anime-bg {
+        background-position: 13%;
+    }
+    /* Projects */
+    .projects-original {
+        background-position: 70%;
+    }
+    .projects-portfolio {
+        background-position: 65%;
+    }
+    /* Anime */
+    .anime-original {
+        background-position: 15%;
+    }
+    .anime-3 {
+        background-position: 5%;
+    }
+    .anime-5 {
+        background-position: 33%;
+    }
+    .anime-6 {
+        background-position: 45%;
+    }
+    .anime-7 {
+        background-position: 63%;
+    }
+    .anime-9 {
+        background-position: 37%;
+    }
+    .anime-10 {
+        background-position: 27%;
+    }
+    /* Manga */
+    .manga-2 {
+        background-position: 88%;
+    }
+    .manga-4 {
+        background-position: 34%;
+    }
+    .manga-5 {
+        background-position: 66%;
+    }
+    .manga-6 {
+        background-position: 1%;
     }
 }
