@@ -316,6 +316,38 @@ body {
     background-image: url("images/kocho-sisters.jpg");
 }
 
+.character-yui {
+    background-image: url("images/yui-yuigahama.jpg");
+}
+
+.character-nino {
+    background-image: url("images/nino-nakano.jpg");
+}
+
+.character-miku {
+    background-image: url("images/miku-nakano.jpg");
+}
+
+.character-honami {
+    background-image: url("images/honami-ichinose.jpg");
+}
+
+.character-touka {
+    background-image: url("images/touka-takanashi.jpg");
+}
+
+.character-yukino {
+    background-image: url("images/yukino-yukinoshita.png");
+}
+
+.character-akame {
+    background-image: url("images/akame.jpg");
+}
+
+.character-shinobu {
+    background-image: url("images/shinobu-kocho.jpg");
+}
+
 
 /* Footer */
 
