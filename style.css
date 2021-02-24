@@ -125,6 +125,10 @@ body {
     background-image: url("images/kocho-sisters.jpg");
 }
 
+.home-characters-bg {
+    background-image: url("images/home-charactesr.jpg");
+}
+
 .home-button {
     color: #03a9fc;
     font-size: 20px;
@@ -170,6 +174,10 @@ body {
 
 .projects-portfolio {
     background-image: url("images/chitanda.png");
+}
+
+.projects-music-timeline {
+    background-image: url("images/projects-music.timeline.png");
 }
 
 
